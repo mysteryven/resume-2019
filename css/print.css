@@ -1,0 +1,15 @@
+body {
+  background: transparent;
+}
+
+.resume-wrapper{
+  width: 100vw;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* header */
+
+
+.project-img, .download-pdf, footer, .only-web{
+  display: none;
+}

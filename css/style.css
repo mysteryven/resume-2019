@@ -13,9 +13,13 @@ body {
 }
 
 .resume-wrapper {
-  margin: 32px auto;
+  margin: 0px auto;
   width: 960px;
   background: white;
+}
+
+.resume {
+  border: 1px solid #ddd;
 }
 
 .resume-wrapper header {
@@ -143,8 +147,8 @@ sider .more-source .item a {
 }
 .resume-wrapper main {
   border-left: 2px solid #cccccc;
-  padding-left: 32px;
-  margin-right: 48px;
+  padding-left: 24px;
+  margin-right: 32px;
   padding-bottom: 48px;
 }
 
@@ -213,6 +217,8 @@ footer {
 }
 
 .highlight {
+  display: inline-block;
+  margin-top: 1px;
   color: #f36b7b;
   background: #eee;
   border-radius: 4px;
@@ -220,3 +226,21 @@ footer {
   padding-right: 0.2em;
 }
 
+.download-pdf {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  background-color: rgb(148, 148, 148);
+  padding: 8px;
+  display: block;
+  border-radius: 4px;
+}
+.download-pdf:hover {
+  background-color: #888;
+}
+
+.download-pdf a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
