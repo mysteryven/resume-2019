@@ -7,9 +7,10 @@ body {
   border-bottom: 2px solid #cccccc;
 }
 
-/* header */
-
-
 .project-img, .download-pdf, footer, .only-web{
   display: none;
+}
+
+.print-title {
+  padding-top: 68px;
 }
