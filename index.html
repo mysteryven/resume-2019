@@ -11,7 +11,7 @@
 
 <body>
     <div class="download-pdf">
-            <a href="./wangwenzhe-resume.pdf" download>下载 PDF 版</a>
+        <a href="./wangwenzhe_resume.pdf" download>下载 PDF 版</a>
     </div>
     <div class="resume-wrapper">
         <header>
@@ -21,12 +21,20 @@
         </header>
         <div class="resume">
             <sider>
-                <div class="avatar"><img src="./imgs/me.jpg" width="200" height="200" > </div>
+                <div class="avatar"><img src="./imgs/me.jpg" width="200" height="200"> </div>
                 <div class="profiles">
                     <h2 class="title">个人资料</h2>
                     <div class="item">
+                        <span>毕业院校</span>
+                        <span>厦门集美大学</span>
+                    </div>
+                    <div class="item">
+                        <span>专业</span>
+                        <span>信息与计算科学</span>
+                    </div>
+                    <div class="item">
                         <span>学历</span>
-                        <span>本科</span>
+                        <span>一本</span>
                     </div>
                     <div class="item">
                         <span>英语</span>
@@ -44,17 +52,14 @@
                         <span>电话</span>
                         <span>18959266127</span>
                     </div>
+
                     <div class="item">
-                        <span>毕业院校</span>
-                        <span>厦门集美大学</span>
-                    </div>
-                    <div class="item">
-                        <span>专业</span>
-                        <span>信息与计算科学</span>
+                        <span>工作经验</span>
+                        <span>1 年</span>
                     </div>
                 </div>
                 <div class="skills">
-                    <h2 class="title">相关技能</h2>
+                    <h2 class="title">技术栈</h2>
                     <div class="item">
                         <p>JavaScript/Html 5/CSS 3</p>
                         <p class="process">
@@ -68,15 +73,33 @@
                         </p>
                     </div>
                     <div class="item">
-                        <p>Webpack/Parcel/NPM</p>
+                        <p>ES6/Vuex/SASS</p>
                         <p class="process">
-                            <i style="width: 30%"></i>
+                            <i style="width: 56%"></i>
                         </p>
                     </div>
                     <div class="item">
-                        <p>ES6/SASS</p>
+                        <p>小程序开发</p>
                         <p class="process">
-                            <i style="width: 60%"></i>
+                            <i style="width: 55%"></i>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>NPM/Vim</p>
+                        <p class="process">
+                            <i style="width: 55%"></i>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Express/Node.js</p>
+                        <p class="process">
+                            <i style="width: 35%"></i>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Webpack/Parcel</p>
+                        <p class="process">
+                            <i style="width: 35%"></i>
                         </p>
                     </div>
                 </div>
@@ -95,6 +118,96 @@
                 </div>
             </sider>
             <main>
+                <h2 class="title">个人作品</h2>
+                <section class="project">
+                    <h3>ZUI</h3>
+                    <div class="project-img">
+                        <img src="./imgs/example.jpg" alt="example" width="100%">
+                    </div>
+                    <ul class="project-info">
+                        <li>
+                            <strong>项目介绍：</strong>
+                            这是一款使用 Vue 构建的组件库，借鉴了主流框架如 Ant Design、Element UI 等的设计理念，实现了<span class="highlight">十几个</span>常用的组件，使用到了
+                            Vue 的大多数功能。<span class="highlight">简洁好用是它的设计理念</span>。
+                        </li>
+                        <li>
+                            <strong>项目预览：</strong>
+                            <a href="https://mysterywz.xyz/wen-design/" target="_blank">预览</a> | <a target="_blank"
+                                href="https://github.com/mysteryven/wen-design">源码</a>
+                        </li>
+                        <li>
+                            <strong>技术栈：</strong>
+                            Vue.js/Vue Cli3/VuePress/ES6/CSS 3/NPM/Mocha/TravisCI/SASS
+                        </li>
+                        <li>
+                            <strong>个人总结：</strong>
+                            此项目耗时 3 个月，通过这三个月的实践，我使用到了 Vue 的绝大多数知识，<span class="highlight">现已较为熟练的掌握 Vue</span>。
+                            本项目完全使用 Vue Cli3
+                            构建，在此过程中我熟悉了<span class="highlight">前端工程化</span>的工作流程。通过撰写文档和自己使用的过程中，让我意识到了写完代码才只是第一步，<span
+                                class="highlight">API 设计</span>和清楚的<span class="highlight">逻辑表达是也很关键</span>。同时我也熟悉了<span
+                                class="highlight">发布 NPM 包</span>的方法，为以后做开源软件打下基础。
+                            在做项目的过程中我受到了很多人的帮助，
+                            这让我充分的意识到了开源文化是一件多么美好的事情。
+                        </li>
+                    </ul>
+                </section>
+                <section class="project">
+                    <h3>SONY 音乐播放器</h3>
+                    <div class="project-img">
+                        <img src="./imgs/music.jpg" alt="example" width="100%">
+                    </div>
+                    <ul class="project-info">
+                        <li>
+                            <strong>项目介绍：</strong>
+                            使用原生 JS 和 JQuery 编写的一款音乐播放器。
+                        </li>
+                        <li>
+                            <strong>项目预览：</strong>
+                            <a target="_blank" href="http://47.98.241.215:3000/#/find-n">预览</a> | <a target="_blank"
+                                href="https://github.com/mysteryven/sony-walkman">源码</a>
+                        </li>
+                        <li>
+                            <strong>技术栈：</strong>
+                            JQuery/DOM/ES6/NPM/Router/Axios
+                        </li>
+                        <li>
+                            <strong>个人总结：</strong>
+                            此项目借鉴了 Vue 的思想，使用 <span class="highlight">MVC</span> 的设计模式来组织代码。使用 <span class="highlight">EventBus</span>
+                            来处理不同 JS 模块间的通讯。
+                            以<span class="highlight">锚点</span>的形式实现了简单的前端路由。服务器使用网上开源的网易云 NodeJS 服务器，使用 <span>Promise</span>
+                            来处理
+                            异步过程，全程使用了 <span class="highlight">ES6</span> 的语法。通过此项目，我很好的回顾了 JQuery 的使用方法，也意识到前端框架的便捷性，
+                            也加深了对前端路由的理解。
+                        </li>
+                    </ul>
+                </section>
+                <section class="project">
+                    <h3>简简画板</h3>
+                    <div class="project-img">
+                        <img src="./imgs/canvas.jpg" alt="" width="100%">
+                    </div>
+                    <ul class="project-info">
+                        <li>
+                            <strong>项目介绍：</strong>
+                            使用原生 JS 和 Canvas 实现一款简易的画图工具，主要通过调用了 Canvas 的 API 实现了划线、调色、
+                            橡皮擦、保存的功能，支持手机端。
+                        </li>
+                        <li>
+                            <strong>项目预览：</strong>
+                            <a target="_blank" href="http://mysterywz.xyz/canvas">预览</a> | <a target="_blank" href="https://github.com/mysteryven/canvas">源码</a>
+                        </li>
+                        <li>
+                            <strong>技术栈：</strong>
+                            JS/Canvas/DOM/响应式
+                        </li>
+                        <li>
+                            <strong>个人总结：</strong>
+                            本项目是我读完 Canvas 文档后的练手项目，使用到了一些常用的 API，如 clearRect、stroke 等，
+                            也加深了我对监听事件的理解。在实现保存图片功能的时候，我遇到了一些问题，最后终于借助于 Google 实现了，
+                            这也使我解决问题的能力得到了提高。
+                        </li>
+                    </ul>
+                </section>
                 <h2 class="title">项目经历</h2>
                 <section class="project">
                     <h3>唯演会
@@ -143,64 +256,9 @@
                         </li>
                         <li>
                             <strong>个人总结：</strong>
-                            这是我第二次做小程序项目，吸取第一次的教训，我第一天进行了一些必要的配置，首先，我把<span class="highlight">数据请求和业务逻辑分成了两个部分</span>。并且，根据业务的需求<span class="highlight">封装了两个组件</span>（Img,
+                            这是我第二次做小程序项目，吸取第一次的教训，我第一天进行了一些必要的配置，首先，我把<span class="highlight">数据请求和业务逻辑分成了两个部分</span>。并且，根据业务的需求<span
+                                class="highlight">封装了两个组件</span>（Img,
                             Tabbar）；由于这次的登录业务比较复杂，我遇到了一些 Bug，这次的经历让我以后能更好处理相关的逻辑。
-                        </li>
-                    </ul>
-                </section>
-                <h2 class="title">个人作品</h2>
-                <section class="project">
-                    <h3>ZUI</h3>
-                    <div class="project-img">
-                        <img src="./imgs/example.jpg" alt="example" width="100%">
-                    </div>
-                    <ul class="project-info">
-                        <li>
-                            <strong>项目介绍：</strong>
-                            这是一款使用 Vue 构建的组件库，借鉴了主流框架如 Ant Design、Element UI 等的设计理念，实现了十几个常用的组件。<span class="highlight">简洁好用是它的设计理念</span>。   
-                        </li>
-                        <li>
-                            <strong>项目预览：</strong>
-                            <a href="https://mysterywz.xyz/wen-design/" target="_blank">预览</a> | <a  target="_blank" href="https://github.com/mysteryven/wen-design">源码</a>
-                        </li>
-                        <li>
-                            <strong>技术栈：</strong>
-                            Vue.js/Vue Cli3/VuePress/ES6/CSS 3/NPM/Mocha/SCSS/TravisCI/
-                        </li>
-                        <li>
-                            <strong>个人总结</strong>
-                            此项目耗时 3 个月，通过这三个月的实践，我使用到了 Vue 的绝大多数知识，<span class="highlight">现已较为熟练的掌握 Vue</span>。
-                            本项目完全使用 Vue Cli3
-                            构建，在此过程中我熟悉了<span class="highlight">前端工程化</span>的工作流程。通过撰写文档和自己使用的过程中，让我意识到了写完代码才只是第一步，<span class="highlight">API 设计</span>和清楚的<span class="highlight">逻辑表达是也很关键</span>。同时我也熟悉了<span class="highlight">发布 NPM 包</span>的方法，为以后做开源软件打下基础。
-                            在做项目的过程中我受到了很多人的帮助，
-                            这让我充分的意识到了开源文化是一件多么美好的事情。
-                        </li>
-                    </ul>
-                </section>
-                <section class="project">
-                    <h3>音乐播放器</h3>
-                    <div class="project-img">
-                        <img src="./imgs/music.jpg" alt="example" width="100%">
-                    </div>
-                    <ul class="project-info">
-                        <li>
-                            <strong>项目介绍：</strong>
-                            使用原生 JS 和 JQuery 编写的一款音乐播放器。
-                        </li>
-                        <li>
-                            <strong>项目预览：</strong>
-                            <a target="_blank" href="http://47.98.241.215:3000/#/find-n">预览</a> | <a target="_blank" href="https://github.com/mysteryven/sony-walkman">源码</a>
-                        </li>
-                        <li>
-                            <strong>技术栈：</strong>
-                            JQuery/DOM/ES6/NPM/Router/Axios
-                        </li>
-                        <li>
-                            <strong>个人总结：</strong>
-                            此项目借鉴了 Vue 的思想，使用 <span class="highlight">MVC</span> 的设计模式来组织代码。使用 <span class="highlight">EventBus</span> 来处理不同 JS 模块间的通讯。
-                            以<span class="highlight">锚点</span>的形式实现了简单的前端路由。服务器使用网上开源的网易云 NodeJS 服务器，使用 <span>Promise</span> 来处理
-                            异步过程，全程使用了 <span class="highlight">ES6</span> 的语法。通过此项目，我很好的回顾了 JQuery 的使用方法，也意识到前端框架的便捷性，
-                            也加深了对前端路由的理解。
                         </li>
                     </ul>
                 </section>
@@ -208,16 +266,18 @@
                     <h2 class="title print-title">关于我</h2>
                     <div class="about-me">
                         <h3 class="about-me-title">我的优点</h3>
-                        <p>喜欢编程，喜欢分享，<span class="highlight">擅长排难</span>，常浏览技术博客</p>
-                        <p>熟悉常用的布局，能  <span class="highlight">完美还原设计稿</span> </p>
-                        <p>熟悉 HTML 的语义化，了解网页和小程序的 Canvas，较为熟悉 CSS 和 Vue 的动画</p>
                         <p>熟悉 Vue 的常用功能，了解 Vue全家桶，可以 <span class="highlight">快速上手 Vue 相关的项目</span></p>
-                        <p>了解 <span class="highlight">TypeScript</span> 和 React，能进行一些简单的开发</p>
-                        <p>了解 Http 和 Node.js 的相关知识，可以构建简单的服务器</p>
+                        <p>可以独立进行小程序开发，熟悉常用的 API，熟悉 Canvas、Map、Swiper 组件的使用</p>
+                        <p>熟悉 JQuery 的常用 API，可以使用它实现网页的常用功能，如轮播图</p>
+                        <p>掌握 CSS 3 动画、响应式等常用技术</p>
+                        <p>能使用 REM、vm/vh 制作适配手机的页面</p>
+                        <p>熟悉常用的布局，能 <span class="highlight">完美还原设计稿</span> </p>
+                        <p>了解 <span class="highlight">TypeScript</span> 和 React，准备用二者写一套轮子，目前已完成配置阶段</p>
+                        <p>了解 Http 和 Node.js 的相关知识，可以构建简单的服务器，可以根据需求写一些接口</p>
                         <p>熟悉 <span class="highlight">Vim，Git，Sass </span>等常用的工具</p>
                         <h3 class="about-me-title">我的介绍</h3>
                         <p>我于 2018.7 月毕业于厦门集美大学，专业为 「信息与计算科学」，主要学习数学和计算机的知识。
-                            大学期间我曾获得过多次将学金。
+                            大学期间我曾获得过多次奖学金。
                         </p>
                         <p>大四上学期接触前端，大四下学期去公司实习，毕业后入职该公司（厦门软云科技有限公司），担任前端开发的工作，接近一年大概做了 4-5 个项目，
                             网页、后台、小程序、APP 都有涉及。</p>

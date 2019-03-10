@@ -7,10 +7,6 @@ body {
   border-bottom: 2px solid #cccccc;
 }
 
-.project-img, .download-pdf, footer, .only-web{
+.download-pdf, footer, .only-web{
   display: none;
-}
-
-.print-title {
-  padding-top: 68px;
 }
